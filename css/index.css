@@ -54,6 +54,14 @@ h3 {
   letter-spacing: -0.02rem;
   color: #161616;
 }
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: -0.02rem;
+  color: #161616;
+}
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -91,6 +99,18 @@ p {
   padding-left: 120px;
   padding-right: 120px;
   box-sizing: border-box;
+}
+@media (max-width: 1400px) {
+  .n-container {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+}
+@media (max-width: 767px) {
+  .n-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 /*---n-promo---*/
 .n-promo {
@@ -160,7 +180,8 @@ p {
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
+  gap: 73px;
 }
 .n-advantages__top {
   display: flex;
@@ -170,4 +191,68 @@ p {
 .n-advantages__top h3 {
   max-width: 563px;
   width: 100%;
+}
+.n-advantages__inner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 93px;
+  row-gap: 21px;
+}
+.n-advantages__item {
+  display: flex;
+  flex-direction: column;
+}
+.n-advantages__item-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.n-advantages__item-icon {
+  display: block;
+  width: 79px;
+  height: 79px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+}
+.n-advantages__item-icon img {
+  border-radius: inherit;
+}
+.n-advantages__item p {
+  max-width: 418px;
+  width: 100%;
+  margin-left: 108px;
+  position: relative;
+  top: -15px;
+}
+/*---n-support---*/
+.n-support {
+  width: 100%;
+  display: flex;
+  background: linear-gradient(93.3deg, #5c4eaa 9.35%, #ae3e78 95%);
+}
+.n-support__wrapper {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.n-title-white {
+  color: #ffffff;
+}
+.n-support__title {
+  max-width: 788px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7px;
+  margin-left: auto;
+  background: #ffffff;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
 }
