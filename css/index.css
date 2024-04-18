@@ -264,9 +264,36 @@ p {
 .n-support__ic {
   display: flex;
   gap: 20px;
+  margin-right: 20px;
+}
+.n-support__ic img {
+  width: 94px;
+  height: 56px;
 }
 hr {
   width: 278px;
   margin-top: auto;
   border: 1px solid #ffffff;
+}
+.n-support__item p {
+  max-width: 473px;
+  width: 100%;
+  color: #ffffff;
+}
+.n-support__button {
+  width: 270px;
+  height: 60px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-left: auto;
+}
+.n-support__button span {
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
 }
