@@ -256,3 +256,17 @@ p {
   padding-right: 10px;
   box-sizing: border-box;
 }
+.n-support__item {
+  width: 100%;
+  display: flex;
+  margin-top: 28px;
+}
+.n-support__ic {
+  display: flex;
+  gap: 20px;
+}
+hr {
+  width: 278px;
+  margin-top: auto;
+  border: 1px solid #ffffff;
+}
