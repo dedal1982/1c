@@ -31,6 +31,28 @@ h1 {
   font-weight: 700;
   font-size: clamp(32px, 5vw, 60px);
   letter-spacing: -0.07rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: clamp(32px, 5vw, 40px);
+  letter-spacing: -0.05rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: -0.02rem;
+  color: #161616;
 }
 p {
   font-family: "Montserrat", sans-serif;
@@ -80,30 +102,72 @@ p {
   display: flex;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+.n-promo__inner {
   display: flex;
   flex-direction: column;
 }
-.n-promo__top {
-  display: flex;
-}
-.n-promo__text {
-  display: flex;
-  flex-direction: column;
-}
-.n-promo__text h1 {
+.n-promo__inner h1 {
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  white-space: nowrap;
 }
-.n-promo__text p {
+.n-promo__inner p {
   max-width: 502px;
   width: 100%;
   color: rgba(0, 0, 0, 0.7);
   margin-top: 21px;
 }
-.n-promo__text button {
+.n-promo__inner button {
   width: 310px;
   height: 60px;
   margin-top: 35px;
+}
+.n-promo__image {
+  position: relative;
+}
+.n-promo__box-item {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+  margin-top: 40px;
+}
+.n-promo__item {
+  padding: 31px 34px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.n-promo__item_shadow {
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+}
+
+.n-promo__item span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: -0.02rem;
+}
+/*---n-advantages---*/
+.n-advantages {
+  background: #ffffff;
+}
+.n-advantages__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.n-advantages__top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.n-advantages__top h3 {
+  max-width: 563px;
+  width: 100%;
 }
