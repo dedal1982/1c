@@ -677,7 +677,7 @@ hr {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 40px 20px 40px 25px;
+  padding: 40px 25px 40px 25px;
   box-sizing: border-box;
   border-radius: 6px;
   box-shadow: 0px 4px 20px 0px #0000000d;
@@ -774,11 +774,19 @@ hr {
   letter-spacing: -0.02rem;
   color: #2e4efe;
 }
-.n-stories__bottom button {
+.n-button-1 {
   width: 247px;
   height: 53px;
   margin-top: 9px;
 }
-.n-stories__bottom img {
+.n-button-2 {
+  width: 247px;
+  height: 53px;
+  margin-top: 0;
+}
+.n-stories__first {
   margin-top: 40px;
+}
+.n-stories__last {
+  margin-top: 65px;
 }
