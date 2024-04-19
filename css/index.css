@@ -763,6 +763,7 @@ hr {
 .n-stories__bottom {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 30px;
 }
 .n-stories__bottom h3 {
@@ -772,4 +773,12 @@ hr {
   line-height: 25.2px;
   letter-spacing: -0.02rem;
   color: #2e4efe;
+}
+.n-stories__bottom button {
+  width: 247px;
+  height: 53px;
+  margin-top: 9px;
+}
+.n-stories__bottom img {
+  margin-top: 40px;
 }
