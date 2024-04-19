@@ -650,3 +650,110 @@ hr {
   align-items: center;
   justify-content: center;
 }
+/*---n-stories---*/
+.n-stories {
+  width: 100%;
+  display: flex;
+}
+.n-stories__wrapper {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.n-stories__inner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 70px;
+}
+.n-stories__item {
+  max-width: 373px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px 40px 25px;
+  box-sizing: border-box;
+}
+.n-stories__top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.n-stories__top-image {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+}
+.n-stories__top-text {
+  display: flex;
+  flex-direction: column;
+}
+.n-stories__top-text h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: -0.02rem;
+  color: #161616;
+}
+.n-stories__top-text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.02rem;
+  color: #000000b2;
+}
+.n-stories__centr {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px solid #f8f9fb;
+  border-bottom: 2px solid #f8f9fb;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+.n-stories__centr-item {
+  display: flex;
+  flex-direction: column;
+}
+.n-stories__centr-item h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: -0.02rem;
+  color: #161616;
+}
+.n-stories__centr-item p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.02rem;
+  color: #000000b2;
+}
+.n-stories__paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.02rem;
+  color: #000000b2;
+  margin-top: 20px;
+}
+.n-stories__paragraph img {
+  width: 23px;
+  height: 16px;
+}
