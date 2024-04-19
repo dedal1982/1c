@@ -554,9 +554,50 @@ hr {
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
+  gap: 70px;
 }
 .n-service__inner {
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 16px;
+}
+.n-service__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+.n-service__item-num {
+  width: 63px;
+  height: 63px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.n-service__item-left {
+  max-width: 413px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.n-service__item-desc {
+  max-width: 787px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #000000e5;
+}
+.n-service__item_gray {
+  background: #f7f7f7;
 }
