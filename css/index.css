@@ -423,8 +423,32 @@ hr {
   display: flex;
   flex-direction: column;
   background: #f8f9fb;
-  padding: 40px 63px 54px 63px;
+  padding: 36px 63px 54px 63px;
   box-sizing: border-box;
+  gap: 32px;
 }
-.n-maintenance__item-inner h4 {
+.n-maintenance__item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.n-maintenance__item-text {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.n-maintenance__item-text p {
+  font-weight: 400;
+  line-height: 20px;
+}
+.n-maintenance__item-box {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.item-list-wrap {
+  gap: 4px;
+}
+.n-maintenance__image {
+  margin-top: 12px;
 }
