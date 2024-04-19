@@ -471,8 +471,7 @@ hr {
 .n-maintenance__choice {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  gap: 10px;
+  gap: 54px;
   margin-top: 67px;
 }
 .n-maintenance__choice-item {
@@ -497,4 +496,51 @@ hr {
 }
 .n-maintenance__choice-item button {
   margin-top: 12px;
+}
+.n-maintenance__expert {
+  max-width: 426px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  position: relative;
+  margin-top: 29px;
+}
+.n-maintenance__expert-img {
+  width: 115px;
+  height: 97.8px;
+}
+.n-maintenance__expert-icon {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 13px;
+  right: 9px;
+}
+.n-maintenance__expert-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 7px;
+}
+.n-maintenance__expert-list h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d2d2d;
+  text-transform: uppercase;
+}
+.n-maintenance__expert-list p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #2d2d2d;
+}
+.n-maintenance__expert-list span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #2d2d2de5;
 }
