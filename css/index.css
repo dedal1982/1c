@@ -468,3 +468,33 @@ hr {
   border-radius: 0 0 8px 8px;
   margin-top: auto;
 }
+.n-maintenance__choice {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 67px;
+}
+.n-maintenance__choice-item {
+  max-width: 672px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.n-maintenance__choice-item h5 {
+  color: #161616;
+}
+.n-maintenance__choice-item span {
+  max-width: 569px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33.6px;
+  letter-spacing: -0.03rem;
+  margin-left: auto;
+}
+.n-maintenance__choice-item button {
+  margin-top: 12px;
+}
