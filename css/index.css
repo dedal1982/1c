@@ -790,3 +790,52 @@ hr {
 .n-stories__last {
   margin-top: 65px;
 }
+/*---n-team---*/
+.n-team {
+  width: 100%;
+  display: flex;
+  background: #f8f9fb;
+}
+.n-team__wrapper {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.n-team__wrapper h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: clamp(32px, 5vw, 40px);
+  letter-spacing: -0.05rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+.n-team__inner {
+  width: 100%;
+  margin-top: 44px;
+}
+.n-team__item-box {
+  width: 100%;
+  display: flex;
+  gap: 31px;
+}
+.n-team__item {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+}
+.n-team__image {
+  position: relative;
+  display: flex;
+  height: 250px;
+  border-bottom: 1px solid #2e4efe;
+}
+.n-team__foto {
+  margin-top: auto;
+}
