@@ -824,18 +824,40 @@ hr {
   gap: 31px;
 }
 .n-team__item {
-  flex-basis: 25%;
+  max-width: 270px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 270px;
 }
 .n-team__image {
-  position: relative;
   display: flex;
+  width: 100%;
   height: 250px;
   border-bottom: 1px solid #2e4efe;
 }
 .n-team__foto {
-  margin-top: auto;
+  margin: auto auto 0;
+}
+.n-team__item-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.n-team__item-text h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: -0.02rem;
+  color: #161616;
+}
+.n-team__item-text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.02rem;
 }
