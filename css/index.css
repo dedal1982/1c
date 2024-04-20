@@ -88,7 +88,7 @@ button {
   border-radius: 6px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: clamp(16px, 5vw, 18px);
   line-height: 18px;
   color: #ffffff;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
@@ -120,12 +120,14 @@ button {
   .n-container {
     padding-left: 75px;
     padding-right: 75px;
+    box-sizing: border-box;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1240px) {
   .n-container {
     padding-left: 20px;
     padding-right: 20px;
+    box-sizing: border-box;
   }
 }
 /*---n-promo---*/
@@ -138,19 +140,29 @@ button {
   display: flex;
   padding-top: 66px;
   padding-bottom: 84px;
+  position: relative;
 }
 .n-promo__inner {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/proo-top.png);
-  background-repeat: no-repeat;
-  background-position: right;
+}
+.n-promo__inner-mobile-img {
+  display: none;
+}
+.n-promo__inner-img {
+  position: absolute;
+  right: 0;
+  top: 77px;
+  max-width: 50%;
+}
+.n-promo__inner-img img {
+  width: 100%;
 }
 .n-promo__inner h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: clamp(32px, 5vw, 60px);
   letter-spacing: -0.07rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
@@ -162,7 +174,7 @@ button {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: clamp(14px, 5vw, 15px);
   line-height: 21px;
   letter-spacing: -0.02rem;
   margin-top: 20px;
@@ -192,7 +204,7 @@ button {
 .n-promo__item h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: clamp(32px, 5vw, 40px);
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
@@ -202,7 +214,7 @@ button {
 .n-promo__item p {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: clamp(14px, 5vw, 15px);
   line-height: 15px;
   letter-spacing: -0.02rem;
 }
@@ -1070,4 +1082,95 @@ hr {
 .n-clients-next:after {
   color: #ffffff;
   font-size: 12px;
+}
+/*---адартив---*/
+@media (max-width: 1079px) {
+  .n-promo__inner-img {
+    width: 400px;
+    height: 310px;
+  }
+}
+@media (max-width: 950px) {
+  .n-promo__inner-img {
+    width: 319.96px;
+    height: 244.95px;
+  }
+  .n-promo__item-box {
+    justify-content: center;
+  }
+}
+@media (max-width: 870px) {
+  .n-promo__inner-img {
+    display: none;
+  }
+  .n-promo__wrapper {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .n-promo__inner {
+    align-items: center;
+  }
+  .n-promo__item-centr {
+    padding: 0;
+    align-items: center;
+  }
+  .n-promo__item {
+    text-align: center;
+  }
+  .n-inner-button {
+    width: 276px;
+    height: 47px;
+  }
+}
+/*---адартив 767---*/
+@media (max-width: 767px) {
+  .n-promo__item-box {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 0;
+  }
+  .n-promo__item {
+    width: fit-content;
+  }
+  .n-promo__item-centr {
+    order: 3;
+    width: 100%;
+    height: 112px;
+  }
+  .n-promo__wrapper {
+    padding-top: 30px;
+  }
+  .n-promo__inner h1 {
+    letter-spacing: -0.04rem;
+  }
+  .n-promo__inner-text {
+    max-width: 343px;
+    margin-top: 12px;
+    text-align: -webkit-center;
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+  .n-promo__inner-text {
+    margin-bottom: 22px;
+  }
+  .n-button {
+    font-size: 16px;
+    letter-spacing: -0.02rem;
+  }
+}
+@media (max-width: 600px) {
+  .n-promo__inner-mobile-img {
+    display: block;
+    width: 350px;
+    height: 263.48px;
+    margin-top: 37px;
+  }
+  .n-promo__inner-mobile-img img {
+    width: 100%;
+  }
+  .n-promo__item {
+    margin-top: 0;
+  }
 }
