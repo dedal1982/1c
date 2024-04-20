@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/index.css" />
     <title>Document</title>
   </head>
@@ -701,55 +705,94 @@
         </div>
       </section>
       <section class="n-team">
-        <div class="n-team__wrapper">
-          <h2>Наша команда</h2>
-          <div class="n-team__inner">
-            <div class="n-team__item-box">
-              <div class="n-team__item">
-                <div class="n-team__image">
-                  <img
-                    class="n-team__foto"
-                    src="./images/n-team-1.png"
-                    alt="фото"
-                  />
+        <div class="n-container">
+          <div class="n-team__wrapper">
+            <h2>Наша команда</h2>
+            <div class="n-team__inner">
+              <div class="n-team__item-box">
+                <div class="n-team__item">
+                  <div class="n-team__image">
+                    <img
+                      class="n-team__foto n-team__foto-centr"
+                      src="./images/n-team-1.png"
+                      alt="фото"
+                    />
+                  </div>
+                  <div class="n-team__item-text">
+                    <h3>Сергей Шанин</h3>
+                    <p>Генеральный директор</p>
+                  </div>
                 </div>
-                <div class="n-team__item-text">
-                  <h3>Сергей Шанин</h3>
-                  <p>Генеральный директор</p>
+                <div class="n-team__item">
+                  <div class="n-team__image">
+                    <img
+                      class="n-team__foto"
+                      src="./images/n-team-2.png"
+                      alt="фото"
+                    />
+                  </div>
+                  <div class="n-team__item-text">
+                    <h3>Сергей Садовый</h3>
+                    <p>Руководитель отдела внедрения</p>
+                  </div>
                 </div>
-              </div>
-              <div class="n-team__item">
-                <div class="n-team__image">
-                  <img
-                    class="n-team__foto"
-                    src="./images/n-team-2.png"
-                    alt="фото"
-                  />
+                <div class="n-team__item">
+                  <div class="n-team__image n-team__image-3">
+                    <img
+                      class="n-team__foto"
+                      src="./images/n-team-3.png"
+                      alt="фото"
+                    />
+                  </div>
+                  <div class="n-team__item-text">
+                    <h3>Ирина Долгова</h3>
+                    <p>Ответственный по качеству</p>
+                  </div>
                 </div>
-              </div>
-              <div class="n-team__item">
-                <div class="n-team__image">
-                  <img
-                    class="n-team__foto"
-                    src="./images/n-team-3.png"
-                    alt="фото"
-                  />
-                </div>
-              </div>
-              <div class="n-team__item">
-                <div class="n-team__image">
-                  <img
-                    class="n-team__foto"
-                    src="./images/n-team-4.png"
-                    alt="фото"
-                  />
+                <div class="n-team__item">
+                  <div class="n-team__image">
+                    <img
+                      class="n-team__foto"
+                      src="./images/n-team-4.png"
+                      alt="фото"
+                    />
+                  </div>
+                  <div class="n-team__item-text">
+                    <h3>Наталья Грушко</h3>
+                    <p>Продакт-менеджер по тарифам сопровождения</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <section class="n-clients">
+        <div class="n-container">
+          <div class="n-clients__wrapper">
+            <h2>Наши клиенты</h2>
+            <!-- Slider main container -->
+            <div class="swiper n-clients-swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev n-clients-prev"></div>
+              <div class="swiper-button-next n-clients-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>
