@@ -237,7 +237,7 @@ button {
 .n-advantages__top h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: clamp(32px, 5vw, 40px);
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
@@ -249,7 +249,7 @@ button {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: clamp(16px, 5vw, 18px);
   line-height: 25.2px;
   letter-spacing: -0.02rem;
   color: #161616;
@@ -274,7 +274,7 @@ button {
 .n-advantages__item-top h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: clamp(15px, 5vw, 16px);
   line-height: 22.4px;
   letter-spacing: -0.02rem;
   color: #161616;
@@ -288,6 +288,7 @@ button {
 }
 .n-advantages__item-icon img {
   border-radius: inherit;
+  width: 100%;
 }
 .n-advantages__item p {
   max-width: 418px;
@@ -1084,6 +1085,12 @@ hr {
   font-size: 12px;
 }
 /*---адартив---*/
+@media (max-width: 1296px) {
+  .n-advantages__inner {
+    column-gap: 20px;
+    justify-content: space-between;
+  }
+}
 @media (max-width: 1079px) {
   .n-promo__inner-img {
     width: 400px;
@@ -1122,7 +1129,7 @@ hr {
     height: 47px;
   }
 }
-/*---адартив 767---*/
+/*---адартив promo---*/
 @media (max-width: 768px) {
   .n-promo__item-box {
     width: 100%;
@@ -1183,5 +1190,44 @@ hr {
   .n-promo__item-box {
     column-gap: 63px;
     row-gap: 20px;
+  }
+}
+/*---адартив---*/
+@media (max-width: 870px) {
+  .n-advantages__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .n-support__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .n-quick__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .n-maintenance__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .n-service__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .n-company__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .n-stories__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .n-team__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .n-clients__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
