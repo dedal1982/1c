@@ -1193,6 +1193,32 @@ hr {
   }
 }
 /*---адартив---*/
+@media (max-width: 1120px) {
+  .n-advantages__item-icon {
+    width: 54px;
+    height: 54px;
+  }
+  .n-advantages__item p {
+    position: inherit;
+    margin-top: 24px;
+    margin-left: 0;
+  }
+  .n-advantages__item-top h4 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    max-width: 300px;
+  }
+  .n-advantages__top {
+    align-items: center;
+  }
+  .n-advantages__inner {
+    justify-content: space-around;
+  }
+  .n-advantages__wrapper {
+    gap: 60px;
+  }
+}
 @media (max-width: 870px) {
   .n-advantages__wrapper {
     padding-top: 60px;
@@ -1229,5 +1255,11 @@ hr {
   .n-clients__wrapper {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .n-advantages__top h2 {
+    font-size: 32px;
+    line-height: 32px;
   }
 }
