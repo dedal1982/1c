@@ -137,12 +137,15 @@ button {
 .n-promo__wrapper {
   display: flex;
   padding-top: 66px;
-  padding-bottom: 80px;
+  padding-bottom: 84px;
 }
 .n-promo__inner {
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-image: url(../images/proo-top.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .n-promo__inner h1 {
   font-family: "Montserrat", sans-serif;
@@ -210,7 +213,7 @@ button {
 .n-advantages__wrapper {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 90px;
   padding-bottom: 80px;
   gap: 73px;
 }
