@@ -36,33 +36,33 @@ h1 {
   background-clip: text;
   color: transparent;
 }
-h2 {
+/* h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: clamp(32px, 5vw, 40px);
+  font-size: 40px;
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
-h3 {
+} */
+/* h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 25.2px;
   letter-spacing: -0.02rem;
   color: #161616;
-}
-h4 {
+} */
+/* h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 22.4px;
   letter-spacing: -0.02rem;
   color: #161616;
-}
-h5 {
+} */
+/* h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -72,15 +72,15 @@ h5 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
+} */
 
-p {
+/* p {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 21px;
   letter-spacing: -0.02rem;
-}
+} */
 .n-button {
   display: flex;
   align-items: center;
@@ -200,9 +200,25 @@ p {
   flex-direction: column;
   gap: 10px;
 }
+.n-advantages__top h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 .n-advantages__top h3 {
   max-width: 563px;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: -0.02rem;
+  color: #161616;
 }
 .n-advantages__inner {
   width: 100%;
@@ -221,6 +237,14 @@ p {
   align-items: center;
   gap: 22px;
 }
+.n-advantages__item-top h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: -0.02rem;
+  color: #161616;
+}
 .n-advantages__item-icon {
   display: block;
   width: 79px;
@@ -237,6 +261,11 @@ p {
   margin-left: 108px;
   position: relative;
   top: -15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.02rem;
 }
 /*---n-support---*/
 .n-support {
@@ -250,8 +279,15 @@ p {
   display: flex;
   flex-direction: column;
 }
-.n-title-white {
-  color: #ffffff;
+.n-support__wrapper h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .n-support__title {
   max-width: 788px;
@@ -268,11 +304,15 @@ p {
   padding-right: 10px;
   box-sizing: border-box;
 }
+.n-title-white {
+  color: #ffffff !important;
+}
 .n-support__item {
   width: 100%;
   display: flex;
-  margin-top: 24px;
+  margin-top: 25px;
 }
+
 .n-support__ic {
   display: flex;
   gap: 20px;
@@ -288,10 +328,16 @@ hr {
   border: 1px solid #ffffff;
 }
 .n-support__item p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.02rem;
   max-width: 473px;
   width: 100%;
   color: #ffffff;
 }
+
 .n-support__button {
   width: 270px;
   height: 60px;
@@ -333,8 +379,15 @@ hr {
   width: 100%;
   border-radius: 8px;
   border: 2px solid #f7f7f7;
-  padding: 40px 52px 40px 103px;
+  padding: 40px 50px 40px 103px;
   box-sizing: border-box;
+}
+.n-quick__item p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.02rem;
 }
 .n-quick__icon {
   width: 63px;
@@ -355,6 +408,17 @@ hr {
   justify-content: space-between;
   gap: 10px;
   margin-top: 47px;
+}
+.n-quick__bottom h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.04rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .n-quick__bottom h5 span {
   color: #161616;
@@ -380,6 +444,16 @@ hr {
   align-items: baseline;
   justify-content: space-between;
   gap: 10px;
+}
+.n-maintenance__top h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .n-maintenance__top a {
   font-family: "Montserrat", sans-serif;
@@ -415,7 +489,12 @@ hr {
   background: #ffffff;
 }
 .n-maintenance__item-title h3 {
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: -0.02rem;
+  color: #161616;
   text-transform: uppercase;
 }
 .n-maintenance__item-inner {
@@ -425,12 +504,12 @@ hr {
   background: #f8f9fb;
   padding: 36px 63px 40px 63px;
   box-sizing: border-box;
-  gap: 32px;
+  gap: 35px;
 }
 .n-maintenance__item-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 14px;
 }
 .n-maintenance__item-text {
   display: flex;
@@ -438,16 +517,27 @@ hr {
   align-items: flex-start;
 }
 .n-maintenance__item-text p {
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: -0.02rem;
 }
 .n-maintenance__item-box {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 17px;
+}
+.n-maintenance__item-box h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: -0.02rem;
+  color: #161616;
 }
 .item-list-wrap {
-  gap: 4px;
+  gap: 13px;
 }
 .n-maintenance__image {
   margin-top: 12px;
@@ -482,6 +572,15 @@ hr {
   gap: 20px;
 }
 .n-maintenance__choice-item h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.04rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   color: #161616;
 }
 .n-maintenance__choice-item span {
@@ -557,6 +656,16 @@ hr {
   flex-direction: column;
   gap: 70px;
 }
+.n-service__wrapper h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 .n-service__inner {
   width: 100%;
   display: flex;
@@ -590,6 +699,14 @@ hr {
   align-items: center;
   gap: 40px;
 }
+.n-service__item-left h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -0.02rem;
+  color: #161616;
+}
 .n-service__item-desc {
   max-width: 787px;
   width: 100%;
@@ -620,6 +737,16 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+.n-company__text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .n-company__text-desc {
   font-family: "Montserrat", sans-serif;
@@ -662,6 +789,16 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.n-stories__wrapper h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .n-stories__inner {
   width: 100%;
@@ -806,7 +943,7 @@ hr {
 .n-team__wrapper h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: clamp(32px, 5vw, 40px);
+  font-size: 40px;
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
@@ -887,7 +1024,7 @@ hr {
 .n-clients__wrapper h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: clamp(32px, 5vw, 40px);
+  font-size: 40px;
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
