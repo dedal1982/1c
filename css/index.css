@@ -1126,10 +1126,9 @@ hr {
 @media (max-width: 767px) {
   .n-promo__item-box {
     width: 100%;
-    justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 24px;
-    column-gap: 0;
+    row-gap: 20px;
+    column-gap: 63px;
   }
   .n-promo__item {
     width: fit-content;
@@ -1172,5 +1171,12 @@ hr {
   }
   .n-promo__item {
     margin-top: 0;
+  }
+  .n-promo__item p {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .n-promo__item h2 {
+    letter-spacing: -0.02rem;
   }
 }
