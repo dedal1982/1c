@@ -1123,12 +1123,11 @@ hr {
   }
 }
 /*---адартив 767---*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .n-promo__item-box {
     width: 100%;
     flex-wrap: wrap;
-    row-gap: 20px;
-    column-gap: 63px;
+    row-gap: 40px;
   }
   .n-promo__item {
     width: fit-content;
@@ -1145,7 +1144,6 @@ hr {
     letter-spacing: -0.04rem;
   }
   .n-promo__inner-text {
-    max-width: 343px;
     margin-top: 12px;
     text-align: -webkit-center;
     font-size: 14px;
@@ -1160,6 +1158,9 @@ hr {
   }
 }
 @media (max-width: 600px) {
+  .n-promo__inner-text {
+    max-width: 343px;
+  }
   .n-promo__inner-mobile-img {
     display: block;
     width: 350px;
@@ -1178,5 +1179,9 @@ hr {
   }
   .n-promo__item h2 {
     letter-spacing: -0.02rem;
+  }
+  .n-promo__item-box {
+    column-gap: 63px;
+    row-gap: 20px;
   }
 }
