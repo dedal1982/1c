@@ -318,12 +318,15 @@ button {
 .n-support__wrapper h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: clamp(28px, 5vw, 40px);
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+.n-support__title h2 {
+  font-weight: 600;
 }
 .n-support__title {
   max-width: 788px;
@@ -349,7 +352,7 @@ button {
   margin-top: 25px;
 }
 
-.n-support__ic {
+.n-support__icon {
   display: flex;
   gap: 20px;
   margin-right: 20px;
@@ -1231,7 +1234,7 @@ hr {
 @media (max-width: 870px) {
   .n-advantages__wrapper {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 57px;
   }
   .n-support__wrapper {
     padding-top: 60px;
@@ -1299,5 +1302,86 @@ hr {
   }
   .item-icon-letter p {
     letter-spacing: -0.01rem;
+  }
+}
+@media (max-width: 1200px) {
+  hr {
+    width: 150px;
+  }
+  .n-support__item {
+    gap: 10px;
+  }
+  .n-support__item p {
+    max-width: 80%;
+  }
+}
+@media (max-width: 1079px) {
+  .n-support__title {
+    margin: 0;
+  }
+  .n-support__wrapper {
+    align-items: center;
+    gap: 24px;
+  }
+  .n-support__item {
+    margin: 0;
+  }
+  .n-support__item {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 24px;
+  }
+  .n-support__icon {
+    order: 2;
+    width: 40%;
+    margin: 0;
+  }
+  .n-support__item button {
+    width: 40%;
+    order: 3;
+    margin: 0;
+  }
+  /* .n-support__item p {
+    max-width: 60%;
+  } */
+  hr {
+    width: 250px;
+  }
+  /* .n-support__item p {
+    font-size: 14px;
+    line-height: 19.6px;
+  } */
+  .n-support__wrapper h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .n-support__title {
+    height: 73px;
+    width: 80%;
+  }
+  .n-support__wrapper h2 {
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.08rem;
+  }
+  .n-title-white {
+    letter-spacing: -0.04rem !important;
+  }
+  .n-support__item p {
+    max-width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .n-support__title {
+    width: 100%;
+    padding: 0;
+  }
+  .n-support__wrapper {
+    padding-top: 57px;
+    gap: 20px;
+  }
+  .n-support__item p {
+    max-width: 100%;
   }
 }
