@@ -286,6 +286,7 @@ button {
   border-radius: 8px;
   box-shadow: 0px 4px 20px 0px #0000001a;
 }
+
 .n-advantages__item-icon img {
   border-radius: inherit;
   width: 100%;
@@ -1219,6 +1220,14 @@ hr {
     gap: 60px;
   }
 }
+@media (max-width: 895px) {
+  .n-advantages__item-top h4 {
+    max-width: 234px;
+  }
+  .n-advantages__item p {
+    max-width: 341px;
+  }
+}
 @media (max-width: 870px) {
   .n-advantages__wrapper {
     padding-top: 60px;
@@ -1261,5 +1270,31 @@ hr {
   .n-advantages__top h2 {
     font-size: 32px;
     line-height: 32px;
+  }
+  .n-advantages__top h3 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .n-advantages__item-top h4 {
+    letter-spacing: -0.02rem;
+  }
+  .n-advantages__top {
+    gap: 15px;
+  }
+  .n-advantages__wrapper {
+    gap: 35px;
+  }
+  .n-advantages__item-top {
+    gap: 19px;
+  }
+  .n-advantages__item p {
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: -0rem;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+  .n-advantages__inner {
+    row-gap: 37px;
   }
 }
