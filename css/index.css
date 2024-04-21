@@ -1214,7 +1214,7 @@ hr {
     align-items: center;
   }
   .n-advantages__inner {
-    justify-content: space-around;
+    justify-content: center;
   }
   .n-advantages__wrapper {
     gap: 60px;
