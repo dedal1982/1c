@@ -1297,4 +1297,7 @@ hr {
   .n-advantages__inner {
     row-gap: 37px;
   }
+  .item-icon-letter p {
+    letter-spacing: -0.01rem;
+  }
 }
