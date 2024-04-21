@@ -1336,7 +1336,7 @@ hr {
     width: 40%;
     margin: 0;
   }
-  .n-support__item button {
+  .n-support__button {
     width: 40%;
     order: 3;
     margin: 0;
@@ -1347,10 +1347,7 @@ hr {
   hr {
     width: 250px;
   }
-  /* .n-support__item p {
-    font-size: 14px;
-    line-height: 19.6px;
-  } */
+
   .n-support__wrapper h2 {
     text-align: center;
   }
@@ -1373,6 +1370,11 @@ hr {
   }
 }
 @media (max-width: 600px) {
+  .n-support__container {
+    padding-left: 19px;
+    padding-right: 19px;
+    box-sizing: border-box;
+  }
   .n-support__title {
     width: 100%;
     padding: 0;
@@ -1383,5 +1385,29 @@ hr {
   }
   .n-support__item p {
     max-width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01rem;
+    text-align: center;
+  }
+  .n-support__icon img {
+    width: 80px;
+    height: 47px;
+  }
+  .n-support__icon {
+    width: 37%;
+    gap: 14px;
+  }
+  .n-support__item {
+    justify-content: inherit;
+    gap: 19px;
+  }
+  .n-support__button {
+    width: 57%;
+    height: 47px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.07rem;
+    margin-left: auto;
   }
 }
