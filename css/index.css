@@ -116,7 +116,7 @@ button {
   padding-right: 120px;
   box-sizing: border-box;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1410px) {
   .n-container {
     padding-left: 75px;
     padding-right: 75px;
@@ -409,11 +409,13 @@ hr {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  justify-content: space-between;
+  column-gap: 5px;
+  row-gap: 40px;
 }
 
 .n-quick__item {
-  max-height: 133px;
+  height: 133px;
   position: relative;
   max-width: 580px;
   width: 100%;
@@ -421,6 +423,9 @@ hr {
   border: 2px solid #f7f7f7;
   padding: 40px 50px 40px 103px;
   box-sizing: border-box;
+}
+.n-quick__item:nth-child(1) {
+  padding-top: 33px;
 }
 .n-quick__item p {
   font-family: "Montserrat", sans-serif;
@@ -447,7 +452,7 @@ hr {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  margin-top: 47px;
+  margin-top: 40px;
 }
 .n-quick__bottom h5 {
   font-family: "Montserrat", sans-serif;
@@ -1353,7 +1358,7 @@ hr {
 @media (max-width: 768px) {
   .n-support__title {
     height: 73px;
-    width: 80%;
+    width: 81%;
   }
   .n-support__wrapper h2 {
     font-size: 28px;
@@ -1407,5 +1412,68 @@ hr {
     font-size: 16px;
     letter-spacing: -0.07rem;
     margin-left: auto;
+  }
+}
+/*---адартив n-quick---*/
+@media (max-width: 1410px) {
+  .n-quick__item {
+    max-height: 133px;
+    position: relative;
+    max-width: 550px;
+    width: 100%;
+    padding: 35px 45px 35px 98px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 1258px) {
+  .n-quick__item {
+    max-width: 530px;
+  }
+  .n-quick__top {
+    justify-content: space-around;
+  }
+  .n-quick__item p {
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: -0.02rem;
+  }
+}
+@media (max-width: 1104px) {
+  .n-quick__item {
+    max-width: 400px;
+    padding: 23px 33px 27px 74px;
+    box-sizing: border-box;
+  }
+  .n-quick__icon {
+    width: 54px;
+    height: 54px;
+  }
+}
+@media (max-width: 845px) {
+  .n-quick__item {
+    max-width: 350px;
+  }
+  .n-quick__item:nth-child(1) {
+    padding-top: 23px;
+  }
+  .n-quick__item:nth-child(2) {
+    padding-right: 20px;
+    padding-top: 35px;
+  }
+  .n-quick__item:nth-child(3) {
+    padding-right: 20px;
+    padding-top: 35px;
+  }
+  .n-quick__item:nth-child(4) {
+    padding-right: 20px;
+    padding-top: 44px;
+  }
+  .n-quick__top {
+    gap: 23px;
+  }
+}
+@media (max-width: 767px) {
+  .n-quick__item {
+    max-width: 100%;
   }
 }
