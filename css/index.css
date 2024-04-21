@@ -357,7 +357,7 @@ button {
   gap: 20px;
   margin-right: 20px;
 }
-.n-support__ic img {
+.n-support__icon img {
   width: 94px;
   height: 56px;
 }
@@ -411,6 +411,7 @@ hr {
   flex-wrap: wrap;
   gap: 40px;
 }
+
 .n-quick__item {
   max-height: 133px;
   position: relative;
@@ -1341,9 +1342,6 @@ hr {
     order: 3;
     margin: 0;
   }
-  /* .n-support__item p {
-    max-width: 60%;
-  } */
   hr {
     width: 250px;
   }
