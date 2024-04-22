@@ -499,14 +499,14 @@ hr {
 .n-maintenance__top h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: clamp(32px, 5vw, 48px);
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
-.n-maintenance__top a {
+.n-maintenance__arm-item a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -514,6 +514,15 @@ hr {
   letter-spacing: -0.02rem;
   color: #000000b2;
   text-decoration: underline;
+}
+.n-maintenance__arm-item {
+  display: flex;
+  align-items: center;
+}
+.n-maintenance__arm {
+  display: none;
+  width: 20.34px;
+  height: 24px;
 }
 .n-maintenance__inner {
   width: 100%;
@@ -1509,5 +1518,19 @@ hr {
     font-size: 24px;
     line-height: 24px;
     letter-spacing: -0.03rem;
+  }
+}
+/*---адартив n-maintenance---*/
+@media (max-width: 1092px) {
+  .n-maintenance__top {
+    flex-direction: column;
+    gap: 19px;
+  }
+  .n-maintenance__arm {
+    display: block;
+  }
+  .n-maintenance__arm-item {
+    width: 100%;
+    justify-content: space-between;
   }
 }
