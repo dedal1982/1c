@@ -723,7 +723,7 @@ hr {
 .n-service__wrapper h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: clamp(32px, 5vw, 48px);
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
@@ -766,7 +766,7 @@ hr {
 .n-service__item-left h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: clamp(15px, 5vw, 16px);
   line-height: 16px;
   letter-spacing: -0.02rem;
   color: #161616;
@@ -1684,7 +1684,7 @@ hr {
   .n-maintenance__top h2 {
     font-size: 32px;
     line-height: 32px;
-    letter-spacing: -0.04 rem;
+    letter-spacing: -0.04rem;
   }
   .n-maintenance__arm-item a {
     font-size: 12px;
@@ -1717,5 +1717,60 @@ hr {
   .n-maintenance__expert-list {
     margin-top: 16px;
     gap: 5px;
+  }
+}
+/*---адартив n-service---*/
+@media (max-width: 1080px) {
+  .n-service__item-left {
+    width: 50%;
+  }
+  .n-service__item-left {
+    gap: 20px;
+  }
+}
+@media (max-width: 1079px) {
+  .n-service__item-num {
+    width: 54px;
+    height: 54px;
+    font-size: 32px;
+  }
+  .n-service__item-left h4 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .n-service__item-desc {
+    line-height: 16.8px;
+  }
+}
+@media (max-width: 950px) {
+  .n-service__item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .n-service__item_gray {
+    background: #ffffff;
+  }
+}
+@media (max-width: 600px) {
+  .n-service__wrapper h2 {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.04rem;
+  }
+  .n-service__wrapper {
+    padding-top: 56px;
+  }
+  .n-service__wrapper {
+    gap: 35px;
+  }
+  .n-service__item-left {
+    width: 100%;
+  }
+  .n-service__item {
+    gap: 19px;
+  }
+  .n-service__item-desc br {
+    display: none;
   }
 }
