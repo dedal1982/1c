@@ -28,28 +28,24 @@ const swiper = new Swiper(".n-clients-swiper", {
       spaceBetween: 40,
     },
     500: {
-      slidesPerView: 1,
-      spaceBetween: 40,
-    },
-    768: {
       slidesPerView: 2,
       spaceBetween: 10,
     },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
     769: {
-      slidesPerView: 2.5,
+      slidesPerView: 3,
       spaceBetween: 10,
     },
-    835: {
-      slidesPerView: 3.3,
+    1000: {
+      slidesPerView: 4,
       spaceBetween: 40,
     },
     1280: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    1920: {
-      slidesPerView: 4,
-      spaceBetween: 40,
+      slidesPerView: 5,
+      spaceBetween: 20,
     },
   },
   // And if we need scrollbar

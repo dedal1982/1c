@@ -1103,7 +1103,7 @@ hr {
 .n-clients__wrapper h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: clamp(32px, 5vw, 40px);
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
@@ -1112,19 +1112,17 @@ hr {
   text-align: center;
 }
 /*---swiper ---*/
-.swiper {
-  width: 100%;
-  height: 100%;
-}
 .n-clients-swiper {
-  max-width: 1220px;
   width: 100%;
-  height: 110px;
-  padding-bottom: 30px !important;
+  height: 145px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
 }
 
 .n-clients-slide {
   margin: 0 auto;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1983,6 +1981,9 @@ hr {
   .n-team__item-text {
     width: 222px;
   }
+  .n-clients__wrapper {
+    gap: 50px;
+  }
 }
 @media (max-width: 1024px) {
   .n-team__item-box {
@@ -1991,16 +1992,30 @@ hr {
   .n-team__inner {
     overflow: hidden;
   }
+  .n-clients__wrapper {
+    gap: 30px;
+  }
 }
 @media (max-width: 1023px) {
   .n-team__item-box {
     justify-content: flex-start;
     overflow: auto;
   }
+  .n-clients-next,
+  .n-clients-prev {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .n-clients-prev::after,
+  .n-clients-next:after {
+    color: #ffffff;
+    font-size: 10px;
+  }
 }
 @media (max-width: 600px) {
   .n-team__wrapper {
     padding-top: 55px;
+    padding-bottom: 55px;
   }
   .n-team__inner {
     margin-top: 15px;
@@ -2018,5 +2033,34 @@ hr {
   }
   .n-team__item-text {
     padding-top: 12px;
+  }
+}
+/*---адартив n-clients---*/
+@media (max-width: 600px) {
+  .n-clients__wrapper {
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
+  .n-clients__wrapper {
+    gap: 30px;
+  }
+  .n-clients-next,
+  .n-clients-prev {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  .n-clients-prev::after,
+  .n-clients-next:after {
+    color: #ffffff;
+    font-size: 8px;
+  }
+  .n-clients-slide {
+    width: 158px;
+  }
+  .n-clients-slide img {
+    width: 100%;
+  }
+  .n-clients-pagination {
+    bottom: var(--swiper-pagination-bottom, 29px) !important;
   }
 }
