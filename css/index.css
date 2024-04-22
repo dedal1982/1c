@@ -863,7 +863,7 @@ hr {
 .n-stories__wrapper h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: clamp(32px, 5vw, 40px);
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
@@ -888,6 +888,10 @@ hr {
   box-sizing: border-box;
   border-radius: 6px;
   box-shadow: 0px 4px 20px 0px #0000000d;
+  box-sizing: border-box;
+}
+.n-stories__item:nth-child(3) {
+  padding-right: 10px;
 }
 .n-stories__top {
   width: 100%;
@@ -908,7 +912,7 @@ hr {
 .n-stories__top-text h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(16px, 5vw, 18px);
   line-height: 25.2px;
   letter-spacing: -0.02rem;
   color: #161616;
@@ -916,7 +920,7 @@ hr {
 .n-stories__top-text p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: clamp(14px, 5vw, 15px);
   line-height: 21px;
   letter-spacing: -0.02rem;
   color: #000000b2;
@@ -938,7 +942,7 @@ hr {
 .n-stories__centr-item h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: clamp(15px, 5vw, 16px);
   line-height: 22.4px;
   letter-spacing: -0.02rem;
   color: #161616;
@@ -946,7 +950,7 @@ hr {
 .n-stories__centr-item p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: clamp(14px, 5vw, 15px);
   line-height: 18px;
   letter-spacing: -0.02rem;
   color: #000000b2;
@@ -957,7 +961,7 @@ hr {
   gap: 10px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: clamp(14px, 5vw, 15px);
   line-height: 21px;
   letter-spacing: -0.02rem;
   color: #000000b2;
@@ -973,6 +977,9 @@ hr {
   align-items: center;
   margin-top: 30px;
 }
+.n-stories__bottom-last {
+  padding-right: 18px;
+}
 .n-stories__bottom h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -986,6 +993,7 @@ hr {
   height: 53px;
   margin-top: 9px;
 }
+
 .n-button-2 {
   width: 247px;
   height: 53px;
@@ -1546,6 +1554,9 @@ hr {
   }
 }
 @media (max-width: 1109px) {
+  .n-maintenance__item {
+    max-width: 40%;
+  }
   .n-maintenance__image {
     width: 90%;
   }
@@ -1659,8 +1670,14 @@ hr {
   .n-maintenance__expert {
     max-width: 50%;
   }
+  .n-maintenance__item {
+    max-width: 49%;
+  }
 }
 @media (max-width: 767px) {
+  .n-maintenance__item {
+    max-width: 373px;
+  }
   .n-maintenance__arm {
     display: block;
   }
@@ -1834,6 +1851,70 @@ hr {
 /*---адартив n-stories---*/
 @media (max-width: 1290px) {
   .n-stories__item {
-    width: 32%;
+    max-width: 350px;
+  }
+  .n-stories__top-text p {
+    font-size: 14px;
+  }
+  .n-stories__top {
+    gap: 14px;
+  }
+}
+@media (max-width: 1232px) {
+  .n-stories__inner {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1109px) {
+  .n-stories__item {
+    max-width: 40%;
+    padding: 22px 35px 40px 35px;
+  }
+  .n-stories__top-text h3 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .n-stories__top-text p {
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: -0.04rem;
+  }
+  .n-stories__centr {
+    margin-top: 22px;
+  }
+}
+@media (max-width: 1000px) {
+  .n-stories__item {
+    max-width: 350.34px;
+  }
+}
+@media (max-width: 600px) {
+  .n-stories__wrapper {
+    padding-top: 52px;
+  }
+  .n-stories__wrapper h2 {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.04rem;
+  }
+  .n-stories__inner {
+    margin-top: 37px;
+  }
+  .n-stories__first,
+  .n-stories__last {
+    display: none;
+  }
+  .n-stories__bottom {
+    margin-right: auto;
+  }
+  .n-stories__bottom h3 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .n-stories__paragraph {
+    gap: 6px;
+  }
+  .n-stories__bottom {
+    margin-top: 10px;
   }
 }
