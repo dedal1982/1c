@@ -25,62 +25,6 @@ button {
   border: none;
   cursor: pointer;
 }
-/*---h1---*/
-/* h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: clamp(32px, 5vw, 60px);
-  letter-spacing: -0.07rem;
-  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-} */
-/* h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  letter-spacing: -0.05rem;
-  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-} */
-/* h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25.2px;
-  letter-spacing: -0.02rem;
-  color: #161616;
-} */
-/* h4 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22.4px;
-  letter-spacing: -0.02rem;
-  color: #161616;
-} */
-/* h5 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 48px;
-  letter-spacing: -0.04rem;
-  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-} */
-
-/* p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 21px;
-  letter-spacing: -0.02rem;
-} */
 .n-button {
   display: flex;
   align-items: center;
