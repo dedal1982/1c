@@ -1889,7 +1889,7 @@ hr {
 }
 @media (max-width: 1109px) {
   .n-stories__item {
-    max-width: 40%;
+    max-width: 49%;
     padding: 22px 35px 40px 35px;
   }
   .n-stories__top-text h3 {
@@ -1907,7 +1907,15 @@ hr {
 }
 @media (max-width: 1000px) {
   .n-stories__item {
-    max-width: 350.34px;
+    max-width: 49%;
+  }
+  .n-button-2 {
+    margin-top: 9px;
+  }
+}
+@media (max-width: 767px) {
+  .n-stories__item {
+    max-width: 80%;
   }
 }
 @media (max-width: 600px) {
