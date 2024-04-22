@@ -547,6 +547,7 @@ hr {
   align-items: center;
   justify-content: center;
   background: #ffffff;
+  border-radius: 8px 8px 0 0;
 }
 .n-maintenance__item-title h3 {
   font-family: "Montserrat", sans-serif;
@@ -634,7 +635,7 @@ hr {
 .n-maintenance__choice-item h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 32px;
+  font-size: clamp(24px, 5vw, 32px);
   line-height: 48px;
   letter-spacing: -0.04rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
@@ -648,7 +649,7 @@ hr {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: clamp(15px, 5vw, 24px);
   line-height: 33.6px;
   letter-spacing: -0.03rem;
   margin-left: auto;
@@ -667,6 +668,9 @@ hr {
 .n-maintenance__expert-img {
   width: 115px;
   height: 97.8px;
+}
+.n-maintenance__expert-img:nth-child(2) {
+  display: none;
 }
 .n-maintenance__expert-icon {
   width: 44px;
@@ -1521,6 +1525,78 @@ hr {
   }
 }
 /*---адартив n-maintenance---*/
+@media (max-width: 1290px) {
+  .n-maintenance__item {
+    max-width: 350px;
+  }
+  .n-maintenance__item-inner {
+    padding: 34px 30px 22px 40px;
+    gap: 30px;
+  }
+}
+@media (max-width: 1232px) {
+  .n-maintenance__inner {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1109px) {
+  .n-maintenance__image {
+    width: 90%;
+  }
+  .n-maintenance__inner {
+    row-gap: 50px;
+  }
+  .n-maintenance__expert {
+    margin-top: 0;
+  }
+  .n-maintenance__choice-item span {
+    font-size: 20px;
+  }
+  .n-maintenance__choice-item h5 {
+    line-height: 40px;
+  }
+  .n-maintenance__item-title h3 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .n-maintenance__item-title {
+    height: 63px;
+  }
+  .n-maintenance__item-box h4 {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .n-maintenance__item-text p {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+  .n-maintenance__item-box {
+    gap: 10px;
+  }
+  .n-maintenance__item-list {
+    gap: 6px;
+  }
+  .item-list-wrap {
+    gap: 10px;
+  }
+  .n-maintenance__price {
+    height: 63px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.03rem;
+  }
+  .n-maintenance__choice-item {
+    max-width: 60%;
+  }
+  .n-maintenance__expert {
+    max-width: 40%;
+  }
+  .n-maintenance__choice {
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
 @media (max-width: 1092px) {
   .n-maintenance__top {
     flex-direction: column;
@@ -1533,8 +1609,75 @@ hr {
     width: 100%;
     justify-content: space-between;
   }
+  .n-maintenance__choice-item {
+    gap: 10px;
+  }
+  .n-maintenance__expert-list span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1000px) {
+  .n-maintenance__choice-item h5 {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.03rem;
+  }
+  .n-maintenance__choice-item span {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .n-maintenance__expert-list h6 {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .n-maintenance__expert-img {
+    display: none;
+  }
+  .n-maintenance__expert-img:nth-child(2) {
+    display: block;
+    width: 99px;
+    height: 97.8px;
+  }
+  .n-maintenance__expert-icon {
+    width: 34px;
+    height: 34px;
+  }
+  .n-maintenance__expert-list p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .n-maintenance__expert-list span {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+  .n-maintenance__choice-item {
+    max-width: 50%;
+  }
+  .n-maintenance__expert {
+    max-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .n-maintenance__choice {
+    flex-direction: column;
+  }
+  .n-maintenance__choice-item {
+    max-width: 100%;
+  }
+  .n-maintenance__choice-item span {
+    margin-left: 0;
+  }
+  .n-maintenance__expert {
+    max-width: 100%;
+  }
+  .n-maintenance__expert-icon {
+    display: none;
+  }
 }
 @media (max-width: 600px) {
+  .item-hidden {
+    display: none;
+  }
   .n-maintenance__wrapper {
     padding-top: 56px;
   }
@@ -1549,5 +1692,30 @@ hr {
   }
   .n-maintenance__top {
     gap: 14px;
+  }
+  .text-gap p {
+    line-height: 18px;
+  }
+  .n-maintenance__image {
+    display: none;
+  }
+  .n-maintenance__inner {
+    margin-top: 25px;
+  }
+  .n-maintenance__choice {
+    margin-top: 39px;
+  }
+  .n-maintenance__choice-item {
+    gap: 14px;
+  }
+  .n-maintenance__choice-item button {
+    margin-top: 5px;
+  }
+  .n-maintenance__choice {
+    gap: 32px;
+  }
+  .n-maintenance__expert-list {
+    margin-top: 16px;
+    gap: 5px;
   }
 }
