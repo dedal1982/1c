@@ -853,7 +853,7 @@ hr {
   display: flex;
 }
 .n-stories__wrapper {
-  padding-top: 90px;
+  padding-top: 86px;
   padding-bottom: 100px;
   width: 100%;
   display: flex;
@@ -1608,9 +1608,6 @@ hr {
     flex-direction: column;
     gap: 19px;
   }
-  .n-maintenance__arm {
-    display: block;
-  }
   .n-maintenance__arm-item {
     width: 100%;
     justify-content: space-between;
@@ -1664,6 +1661,9 @@ hr {
   }
 }
 @media (max-width: 767px) {
+  .n-maintenance__arm {
+    display: block;
+  }
   .n-maintenance__choice {
     flex-direction: column;
   }
@@ -1815,6 +1815,9 @@ hr {
     width: 73px;
     height: 31px;
   }
+  .n-stories__arm-item {
+    align-items: end;
+  }
 }
 @media (max-width: 600px) {
   .n-company__text h2 {
@@ -1826,5 +1829,11 @@ hr {
   }
   .n-company__text {
     gap: 13px;
+  }
+}
+/*---адартив n-stories---*/
+@media (max-width: 1290px) {
+  .n-stories__item {
+    width: 32%;
   }
 }
