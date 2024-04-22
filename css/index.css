@@ -1534,3 +1534,20 @@ hr {
     justify-content: space-between;
   }
 }
+@media (max-width: 600px) {
+  .n-maintenance__wrapper {
+    padding-top: 56px;
+  }
+  .n-maintenance__top h2 {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.04 rem;
+  }
+  .n-maintenance__arm-item a {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+  .n-maintenance__top {
+    gap: 14px;
+  }
+}
