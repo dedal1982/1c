@@ -1698,6 +1698,9 @@ hr {
   }
 }
 @media (max-width: 600px) {
+  .n-maintenance__item {
+    max-width: 100%;
+  }
   .item-hidden {
     display: none;
   }
@@ -1889,6 +1892,9 @@ hr {
   }
 }
 @media (max-width: 600px) {
+  .n-stories__item {
+    max-width: 100%;
+  }
   .n-stories__wrapper {
     padding-top: 52px;
   }
