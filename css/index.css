@@ -1098,6 +1098,7 @@ hr {
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
+  gap: 80px;
 }
 .n-clients__wrapper h2 {
   font-family: "Montserrat", sans-serif;
@@ -1112,8 +1113,21 @@ hr {
 }
 /*---swiper ---*/
 .swiper {
-  width: 1200px;
+  width: 100%;
+  height: 100%;
+}
+.n-clients-swiper {
+  max-width: 1220px;
+  width: 100%;
   height: 110px;
+  padding-bottom: 30px !important;
+}
+
+.n-clients-slide {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .n-clients-prev,
 .n-clients-next {
@@ -1121,11 +1135,18 @@ hr {
   height: 24px !important;
   border-radius: 50% !important;
   background: #525fff !important;
+  top: 40% !important;
 }
 .n-clients-prev::after,
 .n-clients-next:after {
   color: #ffffff;
   font-size: 12px;
+}
+.n-clients-next {
+  right: var(--swiper-navigation-sides-offset, 0px) !important;
+}
+.n-clients-prev {
+  left: var(--swiper-navigation-sides-offset, 0px) !important;
 }
 /*---адартив---*/
 @media (max-width: 1296px) {
