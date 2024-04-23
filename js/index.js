@@ -125,7 +125,7 @@ const swiperThree = new Swiper(".n-stories__swiper", {
       spaceBetween: 40,
     },
     740: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 10,
     },
 
