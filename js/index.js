@@ -73,7 +73,7 @@ const swiperTwo = new Swiper(".n-maintenance__swiper", {
   breakpoints: {
     320: {
       slidesPerView: 1,
-      spaceBetween: 10,
+      spaceBetween: 40,
     },
     740: {
       slidesPerView: 1,

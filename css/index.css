@@ -1674,6 +1674,9 @@ hr {
   }
 }
 @media (max-width: 600px) {
+  .n-maintenance__price {
+    width: 100%;
+  }
   .n-maintenance__wrapper {
     padding-top: 56px;
   }
@@ -1712,6 +1715,12 @@ hr {
     gap: 5px;
   }
 }
+@media (max-width: 385px) {
+}
+.n-maintenance__item {
+  width: 335px;
+}
+
 /*---адартив n-service---*/
 @media (max-width: 1080px) {
   .n-service__item-left {
