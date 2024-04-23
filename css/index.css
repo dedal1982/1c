@@ -118,7 +118,7 @@ button {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: clamp(14px, 5vw, 15px);
+  font-size: clamp(16px, 5vw, 18px);
   line-height: 21px;
   letter-spacing: -0.02rem;
   margin-top: 20px;
@@ -1173,6 +1173,7 @@ hr {
 @media (max-width: 600px) {
   .n-promo__inner-text {
     max-width: 343px;
+    font-size: 16px;
   }
   .n-promo__inner-mobile-img {
     display: block;
