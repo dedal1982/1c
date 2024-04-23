@@ -86,7 +86,7 @@ const swiperTwo = new Swiper(".n-maintenance__swiper", {
     },
     768: {
       slidesPerView: 2,
-      spaceBetween: 20,
+      spaceBetween: 40,
     },
     830: {
       slidesPerView: 2.2,
