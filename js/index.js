@@ -53,3 +53,52 @@ const swiper = new Swiper(".n-clients-swiper", {
     el: ".swiper-scrollbar",
   },
 });
+
+const swiperTwo = new Swiper(".n-maintenance__swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: false,
+  slidesPerView: 2.5,
+  spaceBetween: 10,
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    740: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+
+    745: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    830: {
+      slidesPerView: 2.2,
+      spaceBetween: 10,
+    },
+    925: {
+      slidesPerView: 2.5,
+      spaceBetween: 10,
+    },
+  },
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+});

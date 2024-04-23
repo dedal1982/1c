@@ -422,6 +422,9 @@ hr {
   margin: 0;
 }
 /*---maintenance---*/
+.n-maintenance__swiper {
+  display: none;
+}
 .n-maintenance {
   width: 100%;
   display: flex;
@@ -472,13 +475,12 @@ hr {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 10px;
   margin-top: 70px;
+  justify-content: space-between;
 }
 .n-maintenance__item {
-  max-width: 373px;
-  width: 100%;
+  width: 373px;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
@@ -1505,27 +1507,20 @@ hr {
 /*---адартив n-maintenance---*/
 @media (max-width: 1290px) {
   .n-maintenance__item {
-    max-width: 350px;
+    width: 350px;
   }
   .n-maintenance__item-inner {
     padding: 34px 30px 22px 40px;
     gap: 30px;
   }
 }
-@media (max-width: 1232px) {
+@media (max-width: 1109px) {
   .n-maintenance__inner {
     justify-content: space-around;
-  }
-}
-@media (max-width: 1109px) {
-  .n-maintenance__item {
-    max-width: 40%;
+    row-gap: 40px;
   }
   .n-maintenance__image {
     width: 90%;
-  }
-  .n-maintenance__inner {
-    row-gap: 50px;
   }
   .n-maintenance__expert {
     margin-top: 0;
@@ -1585,7 +1580,6 @@ hr {
   }
   .n-maintenance__arm-item {
     width: 100%;
-    justify-content: space-between;
   }
   .n-maintenance__choice-item {
     gap: 10px;
@@ -1594,6 +1588,7 @@ hr {
     font-size: 16px;
   }
 }
+
 @media (max-width: 1000px) {
   .n-maintenance__choice-item h5 {
     font-size: 24px;
@@ -1634,14 +1629,25 @@ hr {
   .n-maintenance__expert {
     max-width: 50%;
   }
+}
+@media (max-width: 1000px) {
+  .n-maintenance__swiper {
+    display: flex;
+    width: 100%;
+  }
+  .n-maintenance-hidden {
+    display: none;
+  }
   .n-maintenance__item {
-    max-width: 49%;
+    height: 593px;
+  }
+}
+@media (max-width: 740px) {
+  .n-maintenance__swiper {
+    width: 350px;
   }
 }
 @media (max-width: 767px) {
-  .n-maintenance__item {
-    max-width: 373px;
-  }
   .n-maintenance__arm {
     display: block;
   }
@@ -1662,9 +1668,6 @@ hr {
   }
 }
 @media (max-width: 600px) {
-  .n-maintenance__item {
-    max-width: 100%;
-  }
   .item-hidden {
     display: none;
   }
@@ -1685,9 +1688,6 @@ hr {
   }
   .text-gap p {
     line-height: 18px;
-  }
-  .n-maintenance__image {
-    display: none;
   }
   .n-maintenance__inner {
     margin-top: 25px;
