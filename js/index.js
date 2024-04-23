@@ -103,7 +103,7 @@ const swiperTwo = new Swiper(".n-maintenance__swiper", {
   },
 });
 
-const swiperThree = new Swiper(".n-maintenance__swiper", {
+const swiperThree = new Swiper(".n-stories__swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: false,
@@ -122,7 +122,7 @@ const swiperThree = new Swiper(".n-maintenance__swiper", {
   breakpoints: {
     320: {
       slidesPerView: 1,
-      spaceBetween: 10,
+      spaceBetween: 40,
     },
     740: {
       slidesPerView: 1,
