@@ -1654,6 +1654,11 @@ hr {
     width: 350px;
   }
 }
+@media (max-width: 768px) {
+  .n-maintenance__arm-item {
+    justify-content: space-between;
+  }
+}
 @media (max-width: 767px) {
   .n-maintenance__arm {
     display: block;
