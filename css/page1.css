@@ -327,6 +327,7 @@ hr {
   background: #ffffff;
   cursor: pointer;
   margin-left: auto;
+  border: 1px solid #3aa1ff;
 }
 .n-support__button span {
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
