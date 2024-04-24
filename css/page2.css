@@ -324,6 +324,9 @@
 .n-support__item-two {
   margin-top: 41px;
 }
+.button-m-v {
+  display: none;
+}
 @media (max-width: 768px) {
   .n-title-blue {
     width: fit-content;
@@ -352,6 +355,12 @@
   }
   .n-support__wrapper-two {
     gap: 16px;
+  }
+  .button-m-h {
+    display: none;
+  }
+  .button-m-v {
+    display: flex;
   }
 }
 /***************************************************************************************************/
