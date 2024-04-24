@@ -304,4 +304,21 @@
     width: 100%;
   }
 }
+/*---n-support__wrapper-two---*/
+.n-support__wrapper-two {
+  padding-top: 88px;
+}
+.n-support__wrapper-two h2 {
+  font-size: 38px;
+}
+.n-title-blue {
+  display: inline-flex;
+  align-items: center;
+  justify-self: center;
+  width: 222px;
+  height: 55px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
 /***************************************************************************************************/
