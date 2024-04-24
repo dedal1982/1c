@@ -363,4 +363,14 @@
     display: flex;
   }
 }
+/*---item-icon-two---*/
+.item-icon-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-icon-two img {
+  width: 45px;
+  height: 45px;
+}
 /***************************************************************************************************/
