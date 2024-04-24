@@ -338,6 +338,10 @@ hr {
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
+  white-space: nowrap;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
 }
 /*---n-quick---*/
 .n-quick {
