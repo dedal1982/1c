@@ -108,3 +108,21 @@
     gap: 27px;
   }
 }
+/*---n-program---*/
+.n-program {
+  width: 100%;
+  display: flex;
+}
+.n-program__wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 870px) {
+  .n-program__wrapper {
+    padding-top: 60px;
+    padding-bottom: 600px;
+  }
+}
