@@ -1,28 +1,3 @@
-@media (max-width: 870px) {
-  .n-program__wrapper {
-    padding-top: 60px;
-    padding-bottom: 600px;
-  }
-}
-.n-program__top h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: clamp(32px, 5vw, 40px);
-  letter-spacing: -0.05rem;
-  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-.n-program__top p {
-  max-width: 813px;
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 21px;
-  margin-top: 74px;
-}
 .n-promo__wrapper-two {
   padding-bottom: 109px;
 }
@@ -72,7 +47,11 @@
   width: fit-content;
   height: 61px;
 }
+/*---адаптив n-promo---*/
 @media (max-width: 870px) {
+  .n-promo__wrapper-two {
+    padding-bottom: 60px;
+  }
   .n-button-two {
     height: 47px;
   }
@@ -134,6 +113,9 @@
   .n-promo__item-box-two {
     gap: 27px;
   }
+  .n-promo__wrapper-two {
+    padding-bottom: 48px;
+  }
 }
 /*---n-program---*/
 .n-program {
@@ -148,7 +130,6 @@
 }
 .n-program__top {
   display: flex;
-  align-items: flex-end;
   gap: 28px;
 }
 .n-program__top-item {
@@ -161,3 +142,56 @@
   width: 270px;
   height: 50px;
 }
+.n-program__top h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: clamp(32px, 5vw, 40px);
+  letter-spacing: -0.05rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.n-program__top p {
+  max-width: 813px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  margin-top: 74px;
+}
+@media (max-width: 1150px) {
+  .n-program__top {
+    flex-direction: column;
+  }
+  .n-program__top p {
+    margin-top: 0;
+  }
+}
+@media (max-width: 870px) {
+  .n-program__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .n-program__top {
+    gap: 24px;
+  }
+  .n-program__wrapper {
+    padding-top: 52px;
+  }
+  .n-program__top-item {
+    gap: 32px;
+  }
+  .n-program__button {
+    width: 276px;
+    height: 47px;
+  }
+  .n-program__top p {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+}
+/***************************************************************************************************/
