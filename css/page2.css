@@ -161,6 +161,25 @@
   line-height: 21px;
   margin-top: 74px;
 }
+.n-program__centr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 28px;
+}
+.n-program h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: clamp(20px, 5vw, 24px);
+  line-height: 33.6px;
+  letter-spacing: -0.03rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  white-space: nowrap;
+}
 @media (max-width: 1150px) {
   .n-program__top {
     flex-direction: column;
