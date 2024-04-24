@@ -1,0 +1,110 @@
+.n-promo__wrapper-two {
+  padding-bottom: 109px;
+}
+.n-promo__inner-text-two {
+  max-width: 460px;
+  margin-bottom: 56px;
+}
+.n-promo__inner-img-two {
+  top: 44px;
+}
+.n-inner-button-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.n-inner-button-two {
+  width: 270px;
+}
+.n-button-two {
+  width: 207px;
+  height: 60px;
+  border: 1px solid #3aa1ff;
+  background: #f8f9fb;
+}
+.n-button-two span {
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+}
+.n-promo__item-box-two {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.n-promo__item-two {
+  display: flex;
+  flex-direction: column;
+}
+.n-promo__item-image {
+  width: fit-content;
+  height: 61px;
+}
+@media (max-width: 870px) {
+  .n-button-two {
+    height: 47px;
+  }
+  .n-promo__item-box-two {
+    margin-top: 56px;
+    justify-content: center;
+  }
+  .n-promo__item-two {
+    align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  .n-promo__item-box-two {
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  .n-promo__item-two {
+    flex-direction: row;
+    gap: 26px;
+  }
+}
+@media (max-width: 600px) {
+  .n-promo__item-two {
+    width: 100%;
+  }
+  .n-inner-button-item {
+    flex-direction: column;
+  }
+  .n-inner-button-item {
+    width: 276px;
+  }
+  .n-inner-button-item button {
+    width: 100%;
+  }
+  .n-promo__item-box-two {
+    width: 100%;
+  }
+  .n-promo__inner-text-two {
+    margin-bottom: 21px;
+  }
+  .n-inner-button-item {
+    gap: 16px;
+  }
+  .n-promo__inner-mobile-img-two {
+    margin-top: 20px;
+  }
+  .n-promo__item-image {
+    width: 50px;
+    height: 50px;
+  }
+  .n-promo__item-image img {
+    width: 100%;
+  }
+  .n-promo__item-box-two {
+    margin-top: 40px;
+  }
+  .n-promo__item-box-two {
+    gap: 27px;
+  }
+}
