@@ -535,8 +535,10 @@ tr td p {
   background-clip: text;
   color: transparent;
 }
-.whitespace {
+.whitespace td {
   height: 10px;
+  background: #ffffff;
+  border: none !important;
 }
 /*---n-company---*/
 .n-company__container {
