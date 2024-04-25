@@ -542,6 +542,8 @@ tr td p {
 /*---n-maintenance__two---*/
 .n-maintenance__choice-two {
   margin-top: 82px;
+  align-items: center;
+  gap: 61px;
 }
 .n-maintenance__choice-item-two {
   max-width: 664px;
@@ -554,6 +556,9 @@ tr td p {
   margin-left: 0;
 }
 .n-maintenance__choice-item .n-button__choice-two {
+  margin-top: 0;
+}
+.n-maintenance__expert-two {
   margin-top: 0;
 }
 /*---n-company---*/
