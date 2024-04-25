@@ -540,6 +540,16 @@ tr td p {
   background: #ffffff;
   border: none !important;
 }
+/*---n-maintenance__two---*/
+.n-maintenance__choice-two {
+  margin-top: 82px;
+}
+.n-maintenance__choice-item-two {
+  max-width: 664px;
+}
+.n-maintenance__choice-item-two h5 {
+  line-height: 32px;
+}
 /*---n-company---*/
 .n-company__container {
   display: flex;
