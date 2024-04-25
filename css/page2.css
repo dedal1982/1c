@@ -518,6 +518,26 @@ tr td p {
   color: #161616;
   padding: 0;
 }
+.n-tr-white {
+  background: #ffffff;
+}
+.n-tr-bottom td {
+  height: 40px;
+  border: none !important;
+}
+.price-btn-white {
+  background: #ffffff;
+  border: 1px solid #3aa1ff;
+}
+.price-btn-white {
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.whitespace {
+  height: 10px;
+}
 /*---n-company---*/
 .n-company__container {
   display: flex;
