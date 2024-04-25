@@ -490,6 +490,7 @@ tr td p {
   letter-spacing: -0.04rem;
 }
 .n-tr-price-btn {
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
