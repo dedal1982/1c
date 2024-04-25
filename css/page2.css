@@ -482,9 +482,6 @@ tr td p {
   background: url(../icons/n-td-not.png) no-repeat center;
   background-size: contain;
 }
-.n-tr-price td {
-  border-top: 2px solid #39a5ff;
-}
 .n-tr-price {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -520,7 +517,9 @@ tr td p {
 }
 .n-tr-white {
   background: #ffffff;
+  border-top: 2px solid #39a5ff;
 }
+
 .n-tr-bottom td {
   height: 40px;
   border: none !important;
@@ -546,9 +545,16 @@ tr td p {
 }
 .n-maintenance__choice-item-two {
   max-width: 664px;
+  gap: 33px;
 }
 .n-maintenance__choice-item-two h5 {
   line-height: 32px;
+}
+.n-maintenance__choice-item-two span {
+  margin-left: 0;
+}
+.n-maintenance__choice-item .n-button__choice-two {
+  margin-top: 0;
 }
 /*---n-company---*/
 .n-company__container {
