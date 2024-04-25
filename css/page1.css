@@ -1727,9 +1727,9 @@ hr {
   }
 }
 @media (max-width: 385px) {
-}
-.n-maintenance__item {
-  width: 335px;
+  .n-maintenance__item {
+    width: 335px;
+  }
 }
 
 /*---адартив n-service---*/
