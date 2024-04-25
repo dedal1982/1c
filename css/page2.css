@@ -482,6 +482,13 @@ tr td p {
   background: url(../icons/n-td-not.png) no-repeat center;
   background-size: contain;
 }
+.n-tr-price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: -0.04rem;
+}
 /* .n-head {
   border-bottom: 2px solid #39a5ff;
 }
