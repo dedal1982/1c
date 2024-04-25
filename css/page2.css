@@ -415,7 +415,74 @@ td {
   height: 60px;
   text-align: center;
 }
-.n-head {
+th:first-child,
+td:first-child {
+  width: 501px;
+}
+tr th {
+  border-bottom: 2px solid #39a5ff;
+}
+tr th:not(:first-of-type) {
+  border-left: 1px solid #39a5ff;
+}
+tr td:not(:first-of-type) {
+  border-left: 1px solid #39a5ff;
+}
+table tr:nth-child(odd) {
+  background: #ffffff;
+}
+tr tr:nth-child(2) {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: -0.04rem;
+}
+.n-table-title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.01rem;
+}
+.n-table-title span:nth-child(1) {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: -0.01rem;
+}
+tr td {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: clamp(14px, 5vw, 15px);
+  line-height: 21px;
+  letter-spacing: -0.01rem;
+  color: #000000e5;
+}
+tr td p {
+  text-align: start;
+  padding-left: 63px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.n-icon-available {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background: url(../icons/n-td.png) no-repeat center;
+  background-size: contain;
+}
+.n-icon-not-available {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background: url(../icons/n-td-not.png) no-repeat center;
+  background-size: contain;
+}
+/* .n-head {
   border-bottom: 2px solid #39a5ff;
 }
 .n-bott {
@@ -507,7 +574,7 @@ td:first-child {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
+} */
 /*---n-company---*/
 .n-company__container {
   display: flex;
