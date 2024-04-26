@@ -395,6 +395,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: clamp(32px, 5vw, 40px);
+  line-height: 48px;
   letter-spacing: -0.05rem;
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
@@ -468,6 +469,14 @@ tr td p {
   padding-right: 20px;
   box-sizing: border-box;
 }
+.n-head-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: clamp(15px, 5vw, 18px);
+  line-height: 25.2px;
+  letter-spacing: -0.01rem;
+  color: #000000e5;
+}
 .n-icon-available {
   width: 32px;
   height: 32px;
@@ -539,6 +548,54 @@ tr td p {
   height: 10px;
   background: #ffffff;
   border: none !important;
+}
+.n-version__inner {
+  width: 100%;
+}
+/*---адаптив n-version---*/
+@media (max-width: 1354px) {
+  .n-version__inner {
+    overflow: auto;
+  }
+}
+@media (max-width: 870px) {
+  .n-version__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 768px) {
+  tr td p {
+    padding-left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .n-version__wrapper {
+    padding-top: 56px;
+  }
+  .n-version__wrapper h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  table {
+    margin-top: 34px;
+  }
+  th,
+  td {
+    width: 102px;
+  }
+
+  th:first-child,
+  td:first-child {
+    width: 189px;
+  }
+  th:first-child {
+    height: 48px;
+  }
+  tr td {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
 }
 /*---n-maintenance__two---*/
 .n-maintenance__choice-two {
