@@ -793,4 +793,7 @@ tr td p {
     gap: 30px;
     padding-top: 49px;
   }
+  .n-company__wrapper-two {
+    gap: 22px;
+  }
 }

@@ -1805,6 +1805,7 @@ hr {
   .n-company__text-desc {
     font-size: 14px;
     line-height: 19.6px;
+    letter-spacing: 0;
   }
 }
 @media (max-width: 767px) {
