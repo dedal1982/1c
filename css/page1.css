@@ -1314,7 +1314,7 @@ hr {
     row-gap: 37px;
   }
   .item-icon-letter p {
-    letter-spacing: -0.01rem;
+    letter-spacing: -0.04rem;
   }
 }
 @media (max-width: 1200px) {

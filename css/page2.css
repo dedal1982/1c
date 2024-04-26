@@ -337,6 +337,9 @@
   }
 }
 @media (max-width: 600px) {
+  .n-advantages__wrapper-two {
+    padding-top: 50px;
+  }
   .n-support__wrapper-two h2 {
     font-size: 28px;
     letter-spacing: -0.08rem !important;
@@ -636,11 +639,13 @@ tr td p {
   align-items: center;
   gap: 61px;
 }
+.n-maintenance__choice-item-two h5 {
+  line-height: 32px;
+}
 .n-maintenance__choice-item-two {
   max-width: 664px;
   gap: 33px;
 }
-
 .n-maintenance__choice-item-two span {
   margin-left: 0;
 }
@@ -786,5 +791,6 @@ tr td p {
   }
   .n-company__container {
     gap: 30px;
+    padding-top: 49px;
   }
 }
