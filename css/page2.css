@@ -667,6 +667,15 @@ tr td p {
     gap: 24px;
   }
 }
+@media (max-width: 850px) {
+  .n-maintenance__choice-two {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .n-maintenance__choice-item-two {
+    max-width: 100%;
+  }
+}
 @media (max-width: 600px) {
   .n-maintenance__choice-two {
     padding-left: 20px;
