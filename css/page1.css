@@ -1923,6 +1923,10 @@ hr {
   .n-tr-bottom {
     height: 48px;
   }
+  .n-stories__bottom h3 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
 }
 
 /*---адартив n-team---*/
