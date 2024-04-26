@@ -1285,7 +1285,7 @@ hr {
 @media (max-width: 600px) {
   .n-advantages__top h2 {
     font-size: 32px;
-    line-height: 32px;
+    line-height: 36px;
   }
   .n-advantages__top h3 {
     font-size: 16px;
