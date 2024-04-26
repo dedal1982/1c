@@ -675,6 +675,9 @@ tr td p {
     margin-top: 33px;
     gap: 37px;
   }
+  .n-maintenance__expert-two {
+    gap: 12px;
+  }
 
   .n-maintenance__choice-item-two h5 {
     line-height: 24px;
@@ -772,6 +775,13 @@ tr td p {
   }
 }
 @media (max-width: 767px) {
+  .n-expert-img {
+    width: 107.54px !important;
+    height: 97.6px !important;
+  }
+  .n-expert-list {
+    margin-top: 11px;
+  }
   .n-company__bottom-item {
     flex-direction: row;
     align-items: center;
