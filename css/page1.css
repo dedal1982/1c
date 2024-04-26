@@ -1920,6 +1920,9 @@ hr {
   .n-stories__first {
     margin-top: 30px;
   }
+  .n-tr-bottom {
+    height: 48px;
+  }
 }
 
 /*---адартив n-team---*/

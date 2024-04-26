@@ -425,6 +425,7 @@ tr th {
 }
 tr th:not(:first-of-type) {
   border-left: 1px solid #39a5ff;
+  width: 102px;
 }
 tr td:not(:first-of-type) {
   border-left: 1px solid #39a5ff;
@@ -565,11 +566,25 @@ tr td p {
   }
 }
 @media (max-width: 768px) {
+}
+@media (max-width: 767px) {
+  .n-version__arm-item {
+    align-items: end;
+  }
   tr td p {
-    padding-left: 0;
+    padding-left: 20px;
+    padding-right: 16px;
   }
 }
 @media (max-width: 600px) {
+  .n-version__container {
+    padding: 0;
+  }
+  .n-version__arm-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
   .n-version__wrapper {
     padding-top: 56px;
   }
@@ -587,14 +602,27 @@ tr td p {
 
   th:first-child,
   td:first-child {
-    width: 189px;
+    width: 207px;
   }
-  th:first-child {
+  th {
     height: 48px;
   }
   tr td {
     font-size: 14px;
     line-height: 16.8px;
+  }
+  .n-head-title {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .n-table-title span {
+    font-size: 15px;
+  }
+  .n-tr-price-btn {
+    height: 32px;
+  }
+  .n-tr-hidden {
+    display: none;
   }
 }
 /*---n-maintenance__two---*/
@@ -607,9 +635,7 @@ tr td p {
   max-width: 664px;
   gap: 33px;
 }
-.n-maintenance__choice-item-two h5 {
-  line-height: 32px;
-}
+
 .n-maintenance__choice-item-two span {
   margin-left: 0;
 }
@@ -618,6 +644,38 @@ tr td p {
 }
 .n-maintenance__expert-two {
   margin-top: 0;
+}
+/*---адаптив n-maintenance__two-*/
+@media (max-width: 1200px) {
+  .n-maintenance__choice-item-two span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 1024px) {
+  .n-maintenance__choice-item-two {
+    gap: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .n-maintenance__choice-two {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-top: 33px;
+    gap: 37px;
+  }
+
+  .n-maintenance__choice-item-two h5 {
+    line-height: 24px;
+  }
+  .n-maintenance__choice-item-two span {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .n-maintenance__choice-item-two {
+    gap: 17px;
+  }
 }
 /*---n-company---*/
 .n-company__container {
